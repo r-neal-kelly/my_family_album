@@ -1,0 +1,5 @@
+while true
+do
+	ps x -o pcpu | tail -n+2 | awk '{sum += $1} END {print sum}'
+	sleep 1
+done
