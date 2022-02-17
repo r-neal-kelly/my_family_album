@@ -4,7 +4,14 @@ An old sever and client side application written in JavaScript and NodeJS. Devel
 ## How to Use
 - [NodeJS](https://nodejs.org/) is required. The latest versions seem to work perfectly well.
 - For Windows, make sure that the 'node' command is available in the PATH and you can simply double click on the 'run.bat' file to spin up the server. It should automatically open your browser to the website, which is locally being hosted on your machine.
-- For other systems, you will need to manually execute the 'main.js' file in the 'nodejs_server' folder. Make sure that folder is the current working directory, and that 'run.bat' exists in the same directory.
+- For other systems, you will need to manually execute the 'main.js' file in the 'nodejs_server' folder. In your command line make sure that folder is the current working directory, and that 'run.bat' exists in the same directory, and use the command:
+  ```
+    node main.js
+  ```
+  For as long as you keep the command line open, the application will serve at:
+  ```
+    http://127.0.0.1:3000
+  ```
 
 ## Changes
 - The original backup of this application contained user data that has been completely scrubbed from this repository for their protection. All logs and all backups have also been removed for the same reason.
