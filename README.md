@@ -8,7 +8,7 @@ An old sever and client side application written in JavaScript and NodeJS. Devel
 
 ## Changes
 - The original backup of this application contained user data that has been completely scrubbed from this repository for their protection. All logs and all backups have also been removed for the same reason.
-- The original server was designed to run on Linux and on a specific shared hosting platform that guaranteed availability of certain programs. Because those programs may be missing on your computer, some functionality will not work unless a compatible version of them are installed and available on the PATH. The server may freeze or crash for example, when registering as a new user which requires php, or when creating a zip file of a photo album which requires a zipping program.
+- The original server was designed to run on Linux and on a specific shared hosting platform that guaranteed availability of certain programs. Because those programs may be missing on your computer, some functionality will not work unless compatible versions of them are installed and available on the PATH. The server may freeze or crash for example, when registering as a new user which requires php, or when creating a zip file of a photo album which requires a zipping program.
 
 ## Licenses
 - I made great efforts to establish licenses and ownership for each font provided in this application and they can individually be found in their font folders on disk or by clicking the link in the info section of the website.
